@@ -1357,7 +1357,6 @@ fieldset[disabled] .s-btn {
   width: 18.75rem;
   float: right;
   text-align: right;
-  margin-bottom: 0;
 }
 
 @media (max-width: 47.9em) {
@@ -2377,3 +2376,17 @@ fieldset[disabled] .s-btn {
 .pd-footer {
   padding-top: 0.8rem;
 }
+
+.pd-home-feature--xs {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+
+
+@media (min-width: 34em) {
+  .pd-home-feature--sm {
+    padding-top: 8.8125rem;
+    padding-bottom: 7.8125rem;
+  }
+ }
