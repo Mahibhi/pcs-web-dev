@@ -2050,7 +2050,7 @@ fieldset[disabled] .s-btn {
 ------------------------------------*/
 .s-back-to-top {
   position: fixed;
-  right: 3.125rem;
+  right: 2.125rem;
   bottom: -3.125rem;
   display: block;
   width: 1.875rem;
@@ -2091,7 +2091,7 @@ fieldset[disabled] .s-btn {
 
 /* The button becomes visible */
 .s-back-to-top.-is-visible {
-  bottom: 3.125rem;
+  bottom: 2.125rem;
   opacity: .8;
 }
 
@@ -2372,4 +2372,8 @@ fieldset[disabled] .s-btn {
 
 .s-swiper__pagination-v1--dark .swiper-pagination-bullet-active {
   background: #13b1cd;
+}
+
+.pd-footer {
+  padding-top: 0.8rem;
 }
